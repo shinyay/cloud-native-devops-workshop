@@ -218,7 +218,7 @@ AppToCloud ツールの `a2c-healthcheck` スクリプトは、オンプレミ�
 3. システム管理ユーザの認証情報
 4. 実行結果の出力先
 
-`a2c-healthcheck.sh` うを実行して、稼働中のドメインの確認とエクスポートを実施する。実行中に管理者パスワードを求められると、***welcome1*** を入力する
+`a2c-healthcheck.sh` を実行して、稼働中のドメインの確認とエクスポートを実施する。実行中に管理者パスワードを求められると、***welcome1*** を入力する
 
 ```
 [oracle@localhost app-2-cloud]$ /u01/oracle_jcs_app2cloud/bin/a2c-healthcheck.sh -oh /u01/wins/wls1036 -adminUrl t3://localhost:7001 -adminUser weblogic -outputDir /u01/jcs_a2c_output
