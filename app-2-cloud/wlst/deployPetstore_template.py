@@ -1,6 +1,6 @@
 print "************************ Create resources for PETSTORE application *****************************************"
 datasource_user='petstore'
-datasource_password=encrypt('@database.dba.pass@')
+datasource_password='@database.dba.pass@'
 adminserver='AdminServer'
 cluster_name='petstore_cluster'
 JDBCURL='jdbc:oracle:thin:@localhost:1521/@database.pdb@'
